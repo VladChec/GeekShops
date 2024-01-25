@@ -1,0 +1,23 @@
+[
+  {
+    "id": 9,
+    "username": "t2",
+    "role": "ROLE_USER",
+    "yearOfBirth": 2000,
+    "password": "$2a$10$w9NoaFGR/C1sIAdPcIQWI.vjRSi2Qc/fBCjLDVgw7DDwsQ9s3RUyu"
+  },
+  {
+    "id": 8,
+    "username": "t1",
+    "role": "ROLE_ADMIN",
+    "yearOfBirth": 1999,
+    "password": "$2a$10$z5d.RYqvhm8/5oIf3BRaR.SXNj/m0zOJin1KcUpciCnd9R81yebNS"
+  },
+  {
+    "id": 10,
+    "username": "t3",
+    "role": "ROLE_USER",
+    "yearOfBirth": 1900,
+    "password": "$2a$10$CgvsK12Z4bZcTr2x.DBaZOtbVTG6mDgmx6ZSrMoCTLtNLgZy.sJD."
+  }
+]

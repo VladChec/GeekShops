@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-01-25T14:54:56.498+00:00",
+  "status": 404,
+  "error": "Not Found",
+  "path": "/api/sayHello"
+}

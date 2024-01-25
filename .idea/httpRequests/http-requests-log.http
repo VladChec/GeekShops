@@ -1,0 +1,56 @@
+GET http://localhost:8082/client
+
+<> 2024-01-25T183939.200.json
+
+###
+
+GET http://localhost:8082/client/{{id}}
+
+###
+
+GET http://localhost:8082/client/{{id}}
+
+###
+
+GET http://localhost:8082/api/sayHello
+
+<> 2024-01-25T183202.200.txt
+
+###
+
+GET http://localhost:8082/client
+
+<> 2024-01-25T180803.200.json
+
+###
+
+GET http://localhost:8082/api/sayHello
+
+<> 2024-01-25T175456.404.json
+
+###
+
+GET http://localhost:8082/client
+
+<> 2024-01-25T175338.404.json
+
+###
+
+GET http://localhost:8082/api/sayHello
+
+###
+
+GET http://localhost:8082/api/sayHello
+
+###
+
+GET http://localhost:8082/api/sayHello
+
+###
+
+GET http://localhost:8082/api/sayHello
+
+<> 2024-01-25T173109.404.json
+
+###
+

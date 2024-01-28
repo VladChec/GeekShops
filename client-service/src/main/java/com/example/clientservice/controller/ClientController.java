@@ -37,20 +37,4 @@ public class ClientController {
     public Person addPerson(@RequestBody Person person) {
         return personService.addPerson(person);
     }
-//
-//    @GetMapping("/all")
-//    public List<Person> getAllProducts() {
-//        return productRepository.findAll();
-//    }
-//
-//    @GetMapping("/{id}")
-//    public Person getPersonById(@PathVariable int id) {
-//        return productRepository.findById(id).orElse(null);
-//    }
-//
-//
-//    @PostMapping("/add")
-//    public Person addPerson(@RequestBody Person person) {
-//        return productRepository.save(person);
-//    }
 }

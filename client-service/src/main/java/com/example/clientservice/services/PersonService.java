@@ -8,5 +8,5 @@ public interface PersonService {
     Person getPersonById(int id);
     List<Person> getAllPeople();
     Person addPerson(Person person);
-    // Add other methods as needed
+
 }

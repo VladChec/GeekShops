@@ -4,14 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93db0253-6cdb-488b-ba6b-a28ce248a6db" name="Changes" comment="commit school 21">
-      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/client/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/controller/UserProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/repositories/UserProfileRepository.java" afterDir="false" />
+    <list default="true" id="93db0253-6cdb-488b-ba6b-a28ce248a6db" name="Changes" comment="commit ClientController ClientService">
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/services/UserProfileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/services/UserProfileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/web/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/resources/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/resources/static/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/resources/templates/qwe.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/compose.yamlg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/java/com/example/webservice/WebServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/java/com/example/webservice/client/UserViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/java/com/example/webservice/controller/FrontendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/resources/templates/user-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/test/java/com/example/webservice/WebServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a13940e-9917-4064-89ff-cc05b5b19478.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9a13940e-9917-4064-89ff-cc05b5b19478.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a13940e-9917-4064-89ff-cc05b5b19478/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9a13940e-9917-4064-89ff-cc05b5b19478/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/client/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/client/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/controller/FirstRestContr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/controller/UserProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/controller/UserProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/repositories/UserProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/repositories/UserProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/services/ClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +50,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +82,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -60,6 +92,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -75,6 +108,15 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.webservice.client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-service/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/client-service/src/main/resources/templates" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -82,11 +124,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientServiceApplication">
-    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.WebServiceApplication">
+    <configuration name="generated-requests | #10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" requestIdentifier="#10" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
@@ -96,6 +135,9 @@
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="#8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="ClientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -112,13 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.webservice.WebServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #10" />
+        <item itemvalue="HTTP Request.generated-requests | #9" />
         <item itemvalue="HTTP Request.generated-requests | #6" />
         <item itemvalue="HTTP Request.generated-requests | #8" />
         <item itemvalue="HTTP Request.generated-requests | #7" />
-        <item itemvalue="HTTP Request.generated-requests | #5" />
-        <item itemvalue="HTTP Request.generated-requests | #4" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +191,12 @@
       <workItem from="1706191112346" duration="4506000" />
       <workItem from="1706264337606" duration="1860000" />
       <workItem from="1706351120212" duration="146000" />
-      <workItem from="1706443235227" duration="1333000" />
+      <workItem from="1706443235227" duration="6330000" />
+      <workItem from="1706524589522" duration="568000" />
+      <workItem from="1706789915128" duration="1937000" />
+      <workItem from="1706873893695" duration="933000" />
+      <workItem from="1706877216995" duration="101000" />
+      <workItem from="1706877346438" duration="3820000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1705936908420</created>
@@ -165,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706198548640</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit ClientController ClientService">
+      <created>1706448379891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706448379891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +247,23 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new commit" />
     <MESSAGE value="commit school 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit school 21" />
+    <MESSAGE value="commit ClientController ClientService" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit ClientController ClientService" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/web-service/src/main/java/com/example/webservice/controller/FrontendController.java</url>
+          <line>13</line>
+          <properties class="com.example.webservice.controller.FrontendController" method="showUserPage">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

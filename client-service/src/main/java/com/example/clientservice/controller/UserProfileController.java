@@ -3,28 +3,52 @@ package com.example.clientservice.controller;
 
 import com.example.clientservice.client.UserProfile;
 import com.example.clientservice.repositories.UserProfileRepository;
+import com.example.clientservice.services.UserProfileService;
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
+
+@Data
 @RestController
 @RequestMapping("/profile")
 public class UserProfileController {
 
-    @Autowired
-    private UserProfileRepository userProfileRepository;
+        private final UserProfileService userProfileService;
 
-    @GetMapping("/{username}")
-    public ResponseEntity<UserProfile> getUserProfile(@PathVariable String username) {
-        Optional<UserProfile> userProfile = userProfileRepository.findByUsername(username);
-        return userProfile.map(ResponseEntity::ok)
-                .orElseGet(() -> ResponseEntity.notFound().build());
-    }
+        @GetMapping("/all")
+        public ResponseEntity<List<UserProfile>> getAllUserProfiles() {
+            List<UserProfile> userProfiles = userProfileService.getAllUserProfiles();
+            return ResponseEntity.ok(userProfiles);
+        }
 
-    // Другие методы для обновления, создания и удаления профиля
+        @GetMapping("/{id}")
+        public ResponseEntity<UserProfile> getUserProfileById(@PathVariable int id) {
+            Optional<UserProfile> userProfile = Optional.ofNullable(userProfileService.getUserProfileById(id));
+            return userProfile.map(ResponseEntity::ok)
+                    .orElseGet(() -> ResponseEntity.notFound().build());
+        }
+
+        @PostMapping("/create")
+        public ResponseEntity<UserProfile> createUserProfile(@RequestBody UserProfile userProfile) {
+            UserProfile createdUserProfile = userProfileService.createUserProfile(userProfile);
+            return ResponseEntity.ok(createdUserProfile);
+        }
+
+        @PutMapping("/update")
+        public ResponseEntity<Void> updateUserProfile(@RequestBody UserProfile userProfile) {
+            userProfileService.updateUserProfile(userProfile);
+            return ResponseEntity.ok().build();
+        }
+
+        @DeleteMapping("/delete/{id}")
+        public ResponseEntity<Void> deleteUserProfileById(@PathVariable int id) {
+            userProfileService.deleteUserProfileById(id);
+            return ResponseEntity.ok().build();
+        }
 }
+

@@ -1,23 +1,25 @@
 package com.example.clientservice.client;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Table;
-import lombok.Data;
-import org.springframework.data.annotation.Id;
+import jakarta.persistence.*;
+import lombok.*;
 
 
 @Entity
 @Data
-@Table(name = "userProfile")
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name = "userprofile")
 public class UserProfile {
     @Id
+    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+    private int id;
+    @Column(name = "username")
     private String username;
-    private String fullName;
+    @Column(name = "fullname")
+    private String fullname;
+    @Column(name = "email")
     private String email;
+
 }

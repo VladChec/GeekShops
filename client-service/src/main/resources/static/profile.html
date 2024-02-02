@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <!-- Ваш стиль для страницы профиля -->
+    <style>
+        body {
+            background-image: url('/templates/qwe.jpeg'); /* Замените на путь к вашему кастомному фону */
+            background-size: cover;
+            /* Дополнительные стили по вашему усмотрению */
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1 th:text="${userProfile.fullname}"></h1>
+    <p th:text="${userProfile.email}"></p>
+    <!-- Дополнительные поля профиля по вашему усмотрению -->
+
+    <!-- Картинка профиля -->
+    <img th:src="${userProfile.profileImage}" alt="Profile Image">
+</div>
+</body>
+</html>

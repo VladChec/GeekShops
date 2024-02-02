@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.profile-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Optional: Apply blur effect to the background */
+}
+
+.profile-info {
+    text-align: center;
+    color: white;
+}
+
+#profile-picture {
+    width: 150px; /* Adjust the size of the profile picture */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
